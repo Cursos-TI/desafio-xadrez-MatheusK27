@@ -1,7 +1,9 @@
 #include<stdio.h>
 
 int main(){
-int t,b,r;
+int t,b,r,c;
+int movimento =1;
+
 //t=torre, b=bispo, r=rainha.
 
 for( t=0; t<5;  t++ ){
@@ -20,6 +22,16 @@ for(r=0; r<8; r++){
     printf("Rainha a esquerda\n");
 
 }
+
+while (movimento --)
+{
+    for(c=0 ; c<=2; c++){
+        
+        printf("baixo\n");
+    }
+    printf("esquerda\n");
+}
+
 
 
 
