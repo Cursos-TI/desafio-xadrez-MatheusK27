@@ -16,7 +16,7 @@
         }
     }
     
-    void moverrainha(int numero){ //movimento rainha
+    void moverRainha(int numero){ //movimento rainha
         if(numero>0){
             printf("Rainha a esquerda\n");
             moverRainha(numero -1);
