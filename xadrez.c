@@ -19,7 +19,7 @@
     void moverrainha(int numero){ //movimento rainha
         if(numero>0){
             printf("Rainha a esquerda\n");
-            moverrainha(numero -1);
+            moverRainha(numero -1);
         }
     }
 
@@ -27,7 +27,7 @@
     int main(){
     moverTorre(5);
     moverBispo(5);
-    moverrainha(8);
+    moverRainha(8);
 
     for( int c=0 ,d=0;  c<=2 && d<=1;c++, d++){ // movimento cavalo
         printf("cavalo cima a direita\n");
